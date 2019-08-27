@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: vvv
+  cloud:
+    config:
+      name: aaa #需要从github上读取的资源名称，注意没有yml后缀名
+      uri: http://127.0.0.1:3344  #SpringCloudConfig获取的服务地址
+
